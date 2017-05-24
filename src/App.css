@@ -1,0 +1,51 @@
+input[type="text"]:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App a {
+  text-decoration: underline;
+  color: inherit;
+}
+.App a:visited {
+  color: inherit;
+}
+
+.psuedo-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: inherit;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.accent {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+  background-image: linear-gradient(to right, #009CF3, #16D6D9);
+  padding: 0 15px 0 15px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
